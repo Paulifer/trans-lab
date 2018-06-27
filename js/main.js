@@ -14,9 +14,22 @@ btnLogin.addEventListener('click', () => {//funcion para validar los campos
 			alert("contraseña muy larga");
 		}
 	 if (validarContraseña < 48 || validarContraseña > 57) {
-	 	alert("funciona");
+	 	
 		}else{
 			alert("solo numeros");
 		}
+		  document.getElementById('login').classList.add('divDisplayNone');
+			document.getElementById('hamburguesa').classList.remove('divDisplayNone');
+			document.getElementById('hamburguesa').classList.add('divDisplayBlock');
 	});
+
+//PERFIL
+const btnPerfil = document.getElementById('perfil').addEventListener('click', ()=>{
+	document.getElementById('cajas').classList.add('divDisplayNone');
+	document.getElementById('newPerfil').classList.remove('divDisplayNone');
+	document.getElementById('newPerfil').classList.add('divDisplayBlock');
+	
+})
+
+
 
