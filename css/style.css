@@ -1,1 +1,11 @@
 /* YeyeYeee código aquí */
+.contenedorLogin{
+	background-color: #3F4743;
+}
+h1{
+	color: #ffc107;
+	text-align: center;
+}
+.content{
+	display: block;
+}

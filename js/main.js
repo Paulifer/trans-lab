@@ -18,8 +18,5 @@ btnLogin.addEventListener('click', () => {//funcion para validar los campos
 		}else{
 			alert("solo numeros");
 		}
-		
-	
-
 	});
 
